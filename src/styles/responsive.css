@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1500px) {
+    .nav-bar {
+        position: sticky;
+        top: 0;
+    }
+
+    .left-panel {
+        display: none;
+    }
+
+    .right-panel {
+        margin: 0 20px;
+    }
+
+    .burger {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1305px) {
+    .widget {
+        flex-direction: column;
+    }
+}
